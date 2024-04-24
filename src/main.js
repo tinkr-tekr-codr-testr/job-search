@@ -1,5 +1,7 @@
-import { createApp } from 'vue'
-import App from '@/App.vue'
-import '@index.css'
+import { createApp } from "vue";
+import App from './App.vue';
 
-createApp(App).mount('#app')
+//2. This function invocation mounts the Vue app onto
+//the div that was identified by the #app id
+createApp(App).mount("#app");
+
